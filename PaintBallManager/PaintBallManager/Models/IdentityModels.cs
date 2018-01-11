@@ -29,5 +29,7 @@ namespace PaintBallManager.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<PaintBallManager.Models.Player> Players { get; set; }
     }
 }
